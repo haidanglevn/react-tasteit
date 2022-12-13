@@ -7,7 +7,7 @@ import Nav from "./Nav";
 const Header = () => {
   return (
     <header>
-      <NavLink to="/home" className={"logo"}>
+      <NavLink to="/" className={"logo"}>
         TasteIT
       </NavLink>
       <Nav />

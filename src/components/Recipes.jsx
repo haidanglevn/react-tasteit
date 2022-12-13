@@ -6,7 +6,7 @@ const Recipes = () => {
   const [recipe, setRecipe] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:3001/recipe").then((res) => {
+    axios.get("http://localhost:3001/recipes").then((res) => {
       console.log(res.data);
       setRecipe(res.data);
     });

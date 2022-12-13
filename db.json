@@ -1,7 +1,7 @@
 {
-  "recipe": [
+  "recipes": [
     {
-      "id":1,
+      "id": 1,
       "name": "Pho",
       "author": "Dang",
       "country": "vietnam",
@@ -10,17 +10,17 @@
       "ingredient": [
         {
           "name": "banh pho",
-          "quantity":"1 pcs"
+          "quantity": "1 pcs"
         },
         {
           "name": "gia vi pho",
-          "quantity":"1 pcs"
+          "quantity": "1 pcs"
         }
       ],
       "instructions": "put in water, cook and enjoy"
     },
     {
-      "id":2,
+      "id": 2,
       "name": "Syö",
       "author": "Dang",
       "country": "finland",
@@ -29,17 +29,17 @@
       "ingredient": [
         {
           "name": "banh pho",
-          "quantity":"1 pcs"
+          "quantity": "1 pcs"
         },
         {
           "name": "gia vi pho",
-          "quantity":"1 pcs"
+          "quantity": "1 pcs"
         }
       ],
       "instructions": "put in water, cook and enjoy"
     },
     {
-      "id":1,
+      "id": 1,
       "name": "Pho",
       "author": "Dang",
       "country": "germany",
@@ -48,17 +48,17 @@
       "ingredient": [
         {
           "name": "banh pho",
-          "quantity":"1 pcs"
+          "quantity": "1 pcs"
         },
         {
           "name": "gia vi pho",
-          "quantity":"1 pcs"
+          "quantity": "1 pcs"
         }
       ],
       "instructions": "put in water, cook and enjoy"
     },
     {
-      "id":2,
+      "id": 2,
       "name": "Bun Bo Hue",
       "author": "Dang",
       "country": "vietnam",
@@ -67,17 +67,17 @@
       "ingredient": [
         {
           "name": "banh pho",
-          "quantity":"1 pcs"
+          "quantity": "1 pcs"
         },
         {
           "name": "gia vi pho",
-          "quantity":"1 pcs"
+          "quantity": "1 pcs"
         }
       ],
       "instructions": "put in water, cook and enjoy"
     },
     {
-      "id":1,
+      "id": 1,
       "name": "Pho",
       "author": "Dang",
       "country": "vietnam",
@@ -86,17 +86,17 @@
       "ingredient": [
         {
           "name": "banh pho",
-          "quantity":"1 pcs"
+          "quantity": "1 pcs"
         },
         {
           "name": "gia vi pho",
-          "quantity":"1 pcs"
+          "quantity": "1 pcs"
         }
       ],
       "instructions": "put in water, cook and enjoy"
     },
     {
-      "id":2,
+      "id": 2,
       "name": "Bun Bo Hue",
       "author": "Dang",
       "country": "vietnam",
@@ -105,14 +105,24 @@
       "ingredient": [
         {
           "name": "banh pho",
-          "quantity":"1 pcs"
+          "quantity": "1 pcs"
         },
         {
           "name": "gia vi pho",
-          "quantity":"1 pcs"
+          "quantity": "1 pcs"
         }
       ],
       "instructions": "put in water, cook and enjoy"
+    },
+    {
+      "name": "Chinese Chili Sauce",
+      "author": "Dang",
+      "country": "china",
+      "description": "This spicy homemade condiment goes great on everything!",
+      "image": "https://cdn.sanity.io/images/2r0kdewr/production/82c621a456cec23ecfd7c6e23738fc51d2fa4c31-1000x668.jpg?w=600&fm=webp&q=50",
+      "instructions": "Step 1: Prepare garlic & chili peppers\nStep 2: Fry garlic & peppers\nStep 3: Season sauce\n",
+      "ingredient": [],
+      "id": 3
     }
   ]
 }
