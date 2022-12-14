@@ -9,8 +9,11 @@ const NewRecipe = () => {
     country: "",
     description: "",
     image: "",
-    instructions: "",
-    ingredient: [],
+    preparation_time: 0,
+    cooking_time: 0,
+    servings: 0,
+    instructions: [],
+    ingredients: [],
   });
   const [countries, setCountries] = useState([]);
   const [ingredientFields, setIngredientFields] = useState([
@@ -31,18 +34,6 @@ const NewRecipe = () => {
     });
   }, []);
 
-  const units = [
-    "teaspoon",
-    "tablespoon",
-    "cup",
-    "pint",
-    "quart",
-    "gram",
-    "ounce",
-    "pound",
-    "liter",
-  ];
-
   const onchangeHandler = (event) => {
     console.log("changing ", event.target.name, " to ", event.target.value);
     setRecipe({ ...recipe, [event.target.name]: event.target.value });
@@ -52,20 +43,36 @@ const NewRecipe = () => {
     let data = [...ingredientFields];
     data[index][event.target.name] = event.target.value;
     setIngredientFields(data);
+    setRecipe({ ...recipe, ingredients: ingredientFields });
   };
 
-  const addField = () => {
+  const instructionHandler = (event, index) => {
+    let data = [...instructionFields];
+    data[index] = event.target.value;
+    setInstructionFields(data);
+    setRecipe({ ...recipe, instructions: instructionFields });
+  };
+
+  const addIngredientField = () => {
     let object = {
       name: "",
       quantity: "",
       unit: "",
     };
     setIngredientFields([...ingredientFields, object]);
+    console.log(instructionFields);
+  };
+
+  const addInstructionField = () => {
+    let array = [""];
+    setInstructionFields([...instructionFields, array]);
+    console.log(instructionFields);
   };
 
   const submit = (e) => {
     e.preventDefault();
-    setRecipe({ ...recipe, ingredient: ingredientFields });
+    setRecipe({ ...recipe, ingredients: ingredientFields });
+    setRecipe({ ...recipe, instructions: instructionFields });
     console.log(recipe);
     axios
       .post("http://localhost:3001/recipes", recipe)
@@ -76,6 +83,7 @@ const NewRecipe = () => {
     <div className="new-recipe">
       <h1>Add new recipe</h1>
       <form action="">
+        {/* -----------NAME----------------------- */}
         <label htmlFor="name">Name</label>
         <input
           type="text"
@@ -83,6 +91,7 @@ const NewRecipe = () => {
           onChange={(event) => onchangeHandler(event)}
         />
 
+        {/* -----------AUTHOR----------------------- */}
         <label htmlFor="author">Author</label>
         <input
           type="text"
@@ -90,6 +99,7 @@ const NewRecipe = () => {
           onChange={(event) => onchangeHandler(event)}
         />
 
+        {/* -----------COUNTRY----------------------- */}
         <label htmlFor="country">Recipe is from:</label>
         <select
           name="country"
@@ -108,6 +118,7 @@ const NewRecipe = () => {
           })}
         </select>
 
+        {/* -----------DESCRIPTION----------------------- */}
         <label htmlFor="description">Description</label>
         <textarea
           name="description"
@@ -124,6 +135,31 @@ const NewRecipe = () => {
           onChange={(event) => onchangeHandler(event)}
         />
 
+        {/* -----------preparation_time----------------------- */}
+        <label htmlFor="preparation_time">Preparation time</label>
+        <input
+          type="number"
+          name="preparation_time"
+          onChange={(event) => onchangeHandler(event)}
+          placeholder={"in minutes"}
+        />
+        {/* -----------cooking_time----------------------- */}
+        <label htmlFor="cooking_time">Cooking time</label>
+        <input
+          type="number"
+          name="cooking_time"
+          onChange={(event) => onchangeHandler(event)}
+          placeholder={"in minutes"}
+        />
+        {/* -----------servings----------------------- */}
+        <label htmlFor="servings">Servings</label>
+        <input
+          type="number"
+          name="servings"
+          onChange={(event) => onchangeHandler(event)}
+        />
+
+        {/* -----------INGREDIENTS----------------------- */}
         <label htmlFor="ingredients">Ingredients</label>
         <div className="ingredients">
           {ingredientFields.map((ingredient, index) => {
@@ -149,35 +185,44 @@ const NewRecipe = () => {
                 </div>
                 <div>
                   <label htmlFor="unit">Unit</label>
-                  <select
+                  <input
+                    type="text"
                     name="unit"
                     value={ingredient.unit}
                     onChange={(event) => ingredientHandler(event, index)}
-                  >
-                    <option value="" disabled>
-                      Choose a unit:
-                    </option>
-                    {units.map((unit) => {
-                      return (
-                        <option key={unit} value={unit}>
-                          {unit}
-                        </option>
-                      );
-                    })}
-                  </select>
+                  />
                 </div>
               </div>
             );
           })}
 
           <div>
-            <button type="button" onClick={addField}>
+            <button type="button" onClick={addIngredientField}>
               Add more
             </button>
           </div>
         </div>
 
+        {/* -----------INSTRUCTION----------------------- */}
         <label htmlFor="instructions">Instructions</label>
+        {instructionFields.map((instruction, index) => {
+          return (
+            <div>
+              <label htmlFor="step">Step: {index + 1}</label>
+              <input
+                type="text"
+                name="step"
+                value={instruction}
+                onChange={(event) => instructionHandler(event, index)}
+              />
+            </div>
+          );
+        })}
+        <div>
+          <button type="button" onClick={addInstructionField}>
+            Add more step
+          </button>
+        </div>
         <textarea
           name="instructions"
           cols="30"

@@ -1,0 +1,65 @@
+.recipe-single {
+  background-color: var(--gray);
+}
+.hero {
+  width: 100vw;
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.intro {
+  background-color: rgba(255, 255, 255, 0.609);
+  text-align: center;
+  margin: 10px 20vw;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25vw;
+  background-color: var(--green);
+    color: white;
+  text-align: center;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+span {
+  font-weight: bold;
+}
+.ingredient-list,
+.instruction {
+  padding: 30px;
+}
+
+ul {
+  padding-left: 30px;
+  list-style: circle;
+  list-style-type: circle;
+}
+li {
+  padding: 5px 0;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  padding: 0 10vw;
+}
+.details h2 {
+  text-align: center;
+  padding: 10px;
+  font-size: 35px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}

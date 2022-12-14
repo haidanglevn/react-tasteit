@@ -3,6 +3,16 @@
   margin: 0;
   box-sizing: border-box;
 }
+:root {
+  /* color palette */
+  --black: #0a0908;
+  --darkblue:#22333b;
+  --green:#4c956c;
+  --gray:#eae0d5;
+  --lightbrown:#c6ac8f;
+  --darkbrown:#5e503f;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",

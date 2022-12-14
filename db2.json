@@ -2,22 +2,47 @@
   "recipes": [
     {
       "name": "Chicken Parmesan",
+      "id": 1,
       "author": "Maria Valentina",
       "country": "Italy",
       "description": "A classic Italian dish of breaded chicken topped with tomato sauce and melted mozzarella cheese.",
       "image": "https://assets.bonappetit.com/photos/5ea8f0df16738800085ad5d2/1:1/w_2560%2Cc_limit/Chicken-Parmesean-Recipe-Lede.jpg",
       "ingredients": [
-        { "name": "chicken breasts", "quantity": 2, "unit": "pounds" },
-        { "name": "flour", "quantity": 0.5, "unit": "cup" },
-        { "name": "eggs", "quantity": 2, "unit": "whole" },
-        { "name": "bread crumbs", "quantity": 1, "unit": "cup" },
-        { "name": "tomato sauce", "quantity": 1, "unit": "cup" },
-        { "name": "mozzarella cheese", "quantity": 1, "unit": "cup" }
+        {
+          "name": "chicken breasts",
+          "quantity": 2,
+          "unit": "pounds"
+        },
+        {
+          "name": "flour",
+          "quantity": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "eggs",
+          "quantity": 2,
+          "unit": "whole"
+        },
+        {
+          "name": "bread crumbs",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "tomato sauce",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "mozzarella cheese",
+          "quantity": 1,
+          "unit": "cup"
+        }
       ],
       "preparation_time": 15,
       "cooking_time": 20,
       "servings": 4,
-      "directions": [
+      "instructions": [
         "Preheat the oven to 400 degrees F.",
         "Cut the chicken breasts in half lengthwise to create thin cutlets.",
         "In a shallow dish, combine the flour and some salt and pepper.",
@@ -37,25 +62,62 @@
     },
     {
       "name": "Pad Thai",
+      "id": 2,
       "author": "Malee Saelim",
       "country": "Thailand",
       "description": "A popular Thai street food dish made with stir-fried rice noodles, eggs, and a variety of vegetables and seasonings.",
       "image": "https://www.feastingathome.com/wp-content/uploads/2016/04/pad-thai-2.jpg",
       "ingredients": [
-        { "name": "rice noodles", "quantity": 8, "unit": "ounces" },
-        { "name": "eggs", "quantity": 2, "unit": "whole" },
-        { "name": "bean sprouts", "quantity": 1, "unit": "cup" },
-        { "name": "green onions", "quantity": 0.5, "unit": "cup" },
-        { "name": "ground peanuts", "quantity": 0.25, "unit": "cup" },
-        { "name": "lime", "quantity": 4, "unit": "wedges" },
-        { "name": "fish sauce", "quantity": 2, "unit": "tablespoon" },
-        { "name": "brown sugar", "quantity": 1, "unit": "tablespoon" },
-        { "name": "red pepper flakes", "quantity": 1, "unit": "teaspoon" }
+        {
+          "name": "rice noodles",
+          "quantity": 8,
+          "unit": "ounces"
+        },
+        {
+          "name": "eggs",
+          "quantity": 2,
+          "unit": "whole"
+        },
+        {
+          "name": "bean sprouts",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "green onions",
+          "quantity": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "ground peanuts",
+          "quantity": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "lime",
+          "quantity": 4,
+          "unit": "wedges"
+        },
+        {
+          "name": "fish sauce",
+          "quantity": 2,
+          "unit": "tablespoon"
+        },
+        {
+          "name": "brown sugar",
+          "quantity": 1,
+          "unit": "tablespoon"
+        },
+        {
+          "name": "red pepper flakes",
+          "quantity": 1,
+          "unit": "teaspoon"
+        }
       ],
       "preparation_time": 20,
       "cooking_time": 30,
       "servings": 2,
-      "directions": [
+      "instructions": [
         "Soak the rice noodles in warm water for 30 minutes, then drain and set aside.",
         "In a large wok or skillet, heat some oil over medium-high heat. Add the eggs and scramble until cooked, then transfer to a plate and set aside.",
         "Add more oil to the wok or skillet and heat until hot. Add the drained rice noodles, bean sprouts, green onions, ground peanuts, and lime wedges. Stir-fry until the noodles are softened and heated through, about 5 minutes.",
@@ -71,24 +133,57 @@
     },
     {
       "name": "Chicken Alfredo",
+      "id": 3,
       "author": "Flavio Giovanni",
       "country": "Italy",
       "description": "A rich and creamy pasta dish with a homemade Alfredo sauce and tender chicken.",
       "image": "https://www.budgetbytes.com/wp-content/uploads/2022/07/Chicken-Alfredo-bowl.jpg",
       "ingredients": [
-        { "name": "chicken breast", "quantity": 2, "unit": "pounds" },
-        { "name": "fettuccine pasta", "quantity": 1, "unit": "pound" },
-        { "name": "butter", "quantity": 1, "unit": "cup" },
-        { "name": "heavy cream", "quantity": 1, "unit": "cup" },
-        { "name": "garlic", "quantity": 4, "unit": "cloves" },
-        { "name": "parmesan cheese", "quantity": 1, "unit": "cup" },
-        { "name": "salt", "quantity": 0.5, "unit": "teaspoon" },
-        { "name": "pepper", "quantity": 0.25, "unit": "teaspoon" }
+        {
+          "name": "chicken breast",
+          "quantity": 2,
+          "unit": "pounds"
+        },
+        {
+          "name": "fettuccine pasta",
+          "quantity": 1,
+          "unit": "pound"
+        },
+        {
+          "name": "butter",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "heavy cream",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "garlic",
+          "quantity": 4,
+          "unit": "cloves"
+        },
+        {
+          "name": "parmesan cheese",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "salt",
+          "quantity": 0.5,
+          "unit": "teaspoon"
+        },
+        {
+          "name": "pepper",
+          "quantity": 0.25,
+          "unit": "teaspoon"
+        }
       ],
       "preparation_time": 15,
       "cooking_time": 20,
       "servings": 4,
-      "directions": [
+      "instructions": [
         "Cook pasta according to package instructions.",
         "Meanwhile, heat butter in a large saucepan over medium heat. Add garlic and cook until fragrant, about 1 minute.",
         "Add heavy cream and parmesan cheese to the saucepan and stir until the cheese is melted and the sauce is smooth.",
@@ -105,27 +200,72 @@
     },
     {
       "name": "Vegetable Stir-Fry",
+      "id": 4,
       "author": "Mao Dong",
       "country": "China",
       "description": "A healthy and delicious dish of stir-fried vegetables in a savory sauce, served over rice.",
       "image": "https://peasandcrayons.com/wp-content/uploads/2020/12/vegetable-stir-fry-noodles-recipe-.jpg",
       "ingredients": [
-        { "name": "rice", "quantity": 1, "unit": "cup" },
-        { "name": "broccoli", "quantity": 1, "unit": "head" },
-        { "name": "carrots", "quantity": 2, "unit": "large" },
-        { "name": "bell pepper", "quantity": 1, "unit": "large" },
-        { "name": "onion", "quantity": 1, "unit": "medium" },
-        { "name": "vegetable oil", "quantity": 2, "unit": "tablespoons" },
-        { "name": "soy sauce", "quantity": 3, "unit": "tablespoons" },
-        { "name": "ginger", "quantity": 1, "unit": "teaspoon" },
-        { "name": "garlic", "quantity": 2, "unit": "cloves" },
-        { "name": "salt", "quantity": 0.25, "unit": "teaspoon" },
-        { "name": "pepper", "quantity": 0.25, "unit": "teaspoon" }
+        {
+          "name": "rice",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "broccoli",
+          "quantity": 1,
+          "unit": "head"
+        },
+        {
+          "name": "carrots",
+          "quantity": 2,
+          "unit": "large"
+        },
+        {
+          "name": "bell pepper",
+          "quantity": 1,
+          "unit": "large"
+        },
+        {
+          "name": "onion",
+          "quantity": 1,
+          "unit": "medium"
+        },
+        {
+          "name": "vegetable oil",
+          "quantity": 2,
+          "unit": "tablespoons"
+        },
+        {
+          "name": "soy sauce",
+          "quantity": 3,
+          "unit": "tablespoons"
+        },
+        {
+          "name": "ginger",
+          "quantity": 1,
+          "unit": "teaspoon"
+        },
+        {
+          "name": "garlic",
+          "quantity": 2,
+          "unit": "cloves"
+        },
+        {
+          "name": "salt",
+          "quantity": 0.25,
+          "unit": "teaspoon"
+        },
+        {
+          "name": "pepper",
+          "quantity": 0.25,
+          "unit": "teaspoon"
+        }
       ],
       "preparation_time": 10,
       "cooking_time": 15,
       "servings": 4,
-      "directions": [
+      "instructions": [
         "Cook rice according to package instructions.",
         "Meanwhile, cut broccoli, carrots, bell pepper, and onion into bite-sized pieces.",
         "Heat oil in a large wok or skillet over high heat. Add vegetables and stir-fry until they are tender but still crisp, about 5-7 minutes.",
@@ -141,23 +281,52 @@
     },
     {
       "name": "Finnish Pancakes",
+      "id": 5,
       "author": "Matti Meikäläinen",
       "country": "Finland",
       "description": "These Finnish pancakes are thin and deliciously crispy. Perfect for enjoying with a variety of toppings, such as jam, sugar, or fresh berries.",
       "image": "https://assets.bonappetit.com/photos/608acf9320c3cccdd978fac7/1:1/w_1687,h_1687,c_limit/Basically-FinnishPancakes.jpg",
       "ingredients": [
-        { "name": "all-purpose flour", "quantity": 1, "unit": "cup" },
-        { "name": "milk", "quantity": 1, "unit": "cup" },
-        { "name": "egg", "quantity": 1, "unit": "whole" },
-        { "name": "sugar", "quantity": 1, "unit": "tablespoon" },
-        { "name": "baking powder", "quantity": 1, "unit": "teaspoon" },
-        { "name": "salt", "quantity": 0.25, "unit": "teaspoon" },
-        { "name": "butter", "quantity": 2, "unit": "tablespoons" }
+        {
+          "name": "all-purpose flour",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "milk",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "egg",
+          "quantity": 1,
+          "unit": "whole"
+        },
+        {
+          "name": "sugar",
+          "quantity": 1,
+          "unit": "tablespoon"
+        },
+        {
+          "name": "baking powder",
+          "quantity": 1,
+          "unit": "teaspoon"
+        },
+        {
+          "name": "salt",
+          "quantity": 0.25,
+          "unit": "teaspoon"
+        },
+        {
+          "name": "butter",
+          "quantity": 2,
+          "unit": "tablespoons"
+        }
       ],
       "preparation_time": 10,
       "cooking_time": 15,
       "servings": 4,
-      "directions": [
+      "instructions": [
         "In a medium bowl, whisk together the flour, milk, egg, sugar, baking powder, and salt until smooth.",
         "Stir in the melted butter.",
         "Heat a large non-stick skillet over medium heat. Lightly brush with oil or butter.",
@@ -175,24 +344,57 @@
     },
     {
       "name": "German Potato Salad",
+      "id": 6,
       "author": "Peter Niedersachsen",
       "country": "Germany",
       "description": "This German potato salad is a tangy and delicious side dish. It's perfect for serving at a summer BBQ or alongside a hearty meal.",
       "image": "https://www.cookingclassy.com/wp-content/uploads/2020/06/german-potato-salad-2.jpg",
       "ingredients": [
-        { "name": "potatoes", "quantity": 6, "unit": "medium" },
-        { "name": "bacon", "quantity": 6, "unit": "slices" },
-        { "name": "onion", "quantity": 1, "unit": "large" },
-        { "name": "white vinegar", "quantity": 0.25, "unit": "cup" },
-        { "name": "water", "quantity": 0.25, "unit": "cup" },
-        { "name": "sugar", "quantity": 0.25, "unit": "cup" },
-        { "name": "salt", "quantity": 0.5, "unit": "teaspoon" },
-        { "name": "pepper", "quantity": 0.5, "unit": "teaspoon" }
+        {
+          "name": "potatoes",
+          "quantity": 6,
+          "unit": "medium"
+        },
+        {
+          "name": "bacon",
+          "quantity": 6,
+          "unit": "slices"
+        },
+        {
+          "name": "onion",
+          "quantity": 1,
+          "unit": "large"
+        },
+        {
+          "name": "white vinegar",
+          "quantity": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "water",
+          "quantity": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "sugar",
+          "quantity": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "salt",
+          "quantity": 0.5,
+          "unit": "teaspoon"
+        },
+        {
+          "name": "pepper",
+          "quantity": 0.5,
+          "unit": "teaspoon"
+        }
       ],
       "preparation_time": 20,
       "cooking_time": 25,
       "servings": 6,
-      "directions": [
+      "instructions": [
         "Place the potatoes in a large saucepan and cover with water. Bring to a boil over high heat and cook for 15-20 minutes, or until the potatoes are tender.",
         "Meanwhile, cook the bacon in a large skillet over medium heat until crisp. Remove the bacon from the skillet and set aside. Reserve the bacon grease in the skillet.",
         "Peel and thinly slice the onion. Add the onion to the skillet with the reserved bacon grease and cook over medium heat until softened.",
@@ -209,21 +411,42 @@
     },
     {
       "name": "Swiss Cheese Fondue",
+      "id": 7,
       "author": "Karl Franz",
       "country": "Switzerland",
       "description": "A traditional Swiss dish made with melted cheese and white wine, served with bread for dipping.",
       "image": "https://www.earthfoodandfire.com/wp-content/uploads/2016/11/authentic-swiss-cheese-fondue.jpg",
       "ingredients": [
-        { "name": "Gruyere cheese", "quantity": 1.5, "unit": "pound" },
-        { "name": "Emmental cheese", "quantity": 1.5, "unit": "pounds" },
-        { "name": "White wine", "quantity": 2, "unit": "cups" },
-        { "name": "Garlic", "quantity": 3, "unit": "cloves" },
-        { "name": "Kirsch", "quantity": 1, "unit": "tablespoon" }
+        {
+          "name": "Gruyere cheese",
+          "quantity": 1.5,
+          "unit": "pound"
+        },
+        {
+          "name": "Emmental cheese",
+          "quantity": 1.5,
+          "unit": "pounds"
+        },
+        {
+          "name": "White wine",
+          "quantity": 2,
+          "unit": "cups"
+        },
+        {
+          "name": "Garlic",
+          "quantity": 3,
+          "unit": "cloves"
+        },
+        {
+          "name": "Kirsch",
+          "quantity": 1,
+          "unit": "tablespoon"
+        }
       ],
       "preparation_time": 15,
       "cooking_time": 30,
       "servings": 6,
-      "directions": [
+      "instructions": [
         "Rub the inside of a large fondue pot with the garlic cloves.",
         "Pour the white wine into the pot and heat over medium heat until hot, but not boiling.",
         "Grate the Gruyere and Emmental cheeses and add to the pot, a handful at a time, stirring until melted and well combined.",
@@ -240,22 +463,47 @@
     },
     {
       "name": "Classic American Cheeseburger",
+      "id": 8,
       "author": "John Doe",
       "country": "United States",
       "description": "A delicious burger made with ground beef, cheese, lettuce, tomato, and onion, served on a toasted bun.",
       "image": "https://www.sbs.com.au/food/sites/sbs.com.au.food/files/f6e4af93-11ef-4279-8ae7-64acd51f6a36.jpeg",
       "ingredients": [
-        { "name": "Ground beef", "quantity": 1.5, "unit": "pounds" },
-        { "name": "American cheese", "quantity": 4, "unit": "slices" },
-        { "name": "Lettuce", "quantity": 1, "unit": "head" },
-        { "name": "Tomato", "quantity": 1, "unit": "medium" },
-        { "name": "Onion", "quantity": 0.5, "unit": "large" },
-        { "name": "Hamburger buns", "quantity": 4, "unit": "large" }
+        {
+          "name": "Ground beef",
+          "quantity": 1.5,
+          "unit": "pounds"
+        },
+        {
+          "name": "American cheese",
+          "quantity": 4,
+          "unit": "slices"
+        },
+        {
+          "name": "Lettuce",
+          "quantity": 1,
+          "unit": "head"
+        },
+        {
+          "name": "Tomato",
+          "quantity": 1,
+          "unit": "medium"
+        },
+        {
+          "name": "Onion",
+          "quantity": 0.5,
+          "unit": "large"
+        },
+        {
+          "name": "Hamburger buns",
+          "quantity": 4,
+          "unit": "large"
+        }
       ],
       "preparation_time": 15,
       "cooking_time": 20,
       "servings": 4,
-      "directions": [
+      "instructions": [
         "Preheat the grill to medium-high heat.",
         "Divide the ground beef into four equal portions and shape into patties.",
         "Grill the burgers for about 5 minutes per side, or until cooked to your desired level of doneness.",
@@ -273,23 +521,52 @@
     },
     {
       "name": "American Pancakes",
+      "id": 9,
       "author": "John Doe",
       "country": "United States",
       "description": "Fluffy and delicious pancakes, a classic American breakfast favorite.",
       "image": "https://glutenfreecuppatea.co.uk/wp-content/uploads/2021/02/gluten-free-american-pancakes-recipe.jpg",
       "ingredients": [
-        { "name": "all-purpose flour", "quantity": 1.5, "unit": "cups" },
-        { "name": "baking powder", "quantity": 2, "unit": "teaspoons" },
-        { "name": "sugar", "quantity": 0.5, "unit": "cups" },
-        { "name": "salt", "quantity": 0.25, "unit": "teaspoons" },
-        { "name": "milk", "quantity": 1.5, "unit": "cups" },
-        { "name": "vegetable oil", "quantity": 3, "unit": "tablespoons" },
-        { "name": "eggs", "quantity": 2, "unit": "whole" }
+        {
+          "name": "all-purpose flour",
+          "quantity": 1.5,
+          "unit": "cups"
+        },
+        {
+          "name": "baking powder",
+          "quantity": 2,
+          "unit": "teaspoons"
+        },
+        {
+          "name": "sugar",
+          "quantity": 0.5,
+          "unit": "cups"
+        },
+        {
+          "name": "salt",
+          "quantity": 0.25,
+          "unit": "teaspoons"
+        },
+        {
+          "name": "milk",
+          "quantity": 1.5,
+          "unit": "cups"
+        },
+        {
+          "name": "vegetable oil",
+          "quantity": 3,
+          "unit": "tablespoons"
+        },
+        {
+          "name": "eggs",
+          "quantity": 2,
+          "unit": "whole"
+        }
       ],
-      "preparation_time": "10 minutes",
-      "cooking_time": "15 minutes",
+      "preparation_time": 10,
+      "cooking_time": 15,
       "servings": 4,
-      "directions": [
+      "instructions": [
         "In a large bowl, whisk together the flour, baking powder, sugar, and salt.",
         "In a separate bowl, whisk together the milk, vegetable oil, and eggs.",
         "Pour the wet ingredients into the dry ingredients and whisk until well combined.",
@@ -307,19 +584,32 @@
     },
     {
       "name": "Peanut Butter and Jelly Sandwich",
+      "id": 10,
       "author": "Jane Doe",
       "country": "United States",
       "description": "This classic sandwich is a childhood favorite and makes a quick and easy lunch option.",
       "image": "https://toasterovenlove.com/wp-content/uploads/Toasted-Peanut-Butter-and-Jelly-2.jpg",
       "ingredients": [
-        { "name": "peanut butter", "quantity": 2, "unit": "tablespoons" },
-        { "name": "jelly or jam", "quantity": 2, "unit": "tablespoons" },
-        { "name": "bread", "quantity": 2, "unit": "slices" }
+        {
+          "name": "peanut butter",
+          "quantity": 2,
+          "unit": "tablespoons"
+        },
+        {
+          "name": "jelly or jam",
+          "quantity": 2,
+          "unit": "tablespoons"
+        },
+        {
+          "name": "bread",
+          "quantity": 2,
+          "unit": "slices"
+        }
       ],
       "preparation_time": 5,
       "cooking_time": 0,
       "servings": 1,
-      "directions": [
+      "instructions": [
         "Spread peanut butter on one slice of bread.",
         "Spread jelly on the other slice of bread.",
         "Place the slices together to form a sandwich.",
@@ -334,24 +624,57 @@
     },
     {
       "name": "Paella",
+      "id": 11,
       "author": "Juan Perez",
       "country": "Spain",
       "description": "Paella is a traditional Spanish rice dish that is commonly made with a variety of ingredients, including seafood, chicken, and vegetables.",
       "image": "https://www.acouplecooks.com/wp-content/uploads/2020/07/Paella-Recipe-014.jpg",
       "ingredients": [
-        { "name": "olive oil", "quantity": 2, "unit": "tablespoons" },
-        { "name": "onion, diced", "quantity": 0.5, "unit": "cup" },
-        { "name": "garlic, minced", "quantity": 2, "unit": "cloves" },
+        {
+          "name": "olive oil",
+          "quantity": 2,
+          "unit": "tablespoons"
+        },
+        {
+          "name": "onion, diced",
+          "quantity": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "garlic, minced",
+          "quantity": 2,
+          "unit": "cloves"
+        },
         {
           "name": "chicken, cut into bite-sized pieces",
           "quantity": 1,
           "unit": "pound"
         },
-        { "name": "saffron threads", "quantity": 0.25, "unit": "teaspoon" },
-        { "name": "paprika", "quantity": 1, "unit": "teaspoon" },
-        { "name": "tomato, diced", "quantity": 0.5, "unit": "cup" },
-        { "name": "chicken broth", "quantity": 2, "unit": "cups" },
-        { "name": "calasparra or bomba rice", "quantity": 1, "unit": "cup" },
+        {
+          "name": "saffron threads",
+          "quantity": 0.25,
+          "unit": "teaspoon"
+        },
+        {
+          "name": "paprika",
+          "quantity": 1,
+          "unit": "teaspoon"
+        },
+        {
+          "name": "tomato, diced",
+          "quantity": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "chicken broth",
+          "quantity": 2,
+          "unit": "cups"
+        },
+        {
+          "name": "calasparra or bomba rice",
+          "quantity": 1,
+          "unit": "cup"
+        },
         {
           "name": "green beans, trimmed and cut into 1-inch pieces",
           "quantity": 0.5,
@@ -367,12 +690,16 @@
           "quantity": 0.5,
           "unit": "pound"
         },
-        { "name": "lemon wedges", "quantity": 1, "unit": "lemon" }
+        {
+          "name": "lemon wedges",
+          "quantity": 1,
+          "unit": "lemon"
+        }
       ],
       "preparation_time": 30,
       "cooking_time": 60,
       "servings": 4,
-      "directions": [
+      "instructions": [
         "Heat the olive oil in a paella pan or large, shallow skillet over medium heat. Add the onion and garlic and cook until the onion is softened, about 5 minutes.",
         "Add the chicken and cook until lightly browned, about 5 minutes. Stir in the saffron, paprika, and tomato. Add the chicken broth and rice and bring to a boil. Reduce the heat to low and simmer, covered, until the rice is almost cooked, about 20 minutes.",
         "Stir in the green beans and mussels and cook until the mussels have opened and the rice is cooked, about 10 minutes. Stir in the shrimp and cook until they are pink and cooked through, about 5 minutes. Serve the paella with lemon wedges on the side."
@@ -386,29 +713,82 @@
     },
     {
       "name": "Köttbullar (Swedish Meatballs)",
+      "id": 12,
       "author": "Lena Svensson",
       "country": "Sweden",
       "description": "Köttbullar are a traditional Swedish dish typically served with gravy, mashed potatoes, and lingonberry jam. They make a delicious and comforting meal.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/17-06-09-IKEA-K%C3%B6ttbullar-RalfR-IMG_20170609_182055_928a.jpg/1200px-17-06-09-IKEA-K%C3%B6ttbullar-RalfR-IMG_20170609_182055_928a.jpg",
       "ingredients": [
-        { "name": "ground beef", "quantity": 0.5, "unit": "pound" },
-        { "name": "ground pork", "quantity": 0.5, "unit": "pound" },
-        { "name": "onion, finely minced", "quantity": 1, "unit": "small" },
-        { "name": "breadcrumbs", "quantity": 0.25, "unit": "cup" },
-        { "name": "milk", "quantity": 0.25, "unit": "cup" },
-        { "name": "all-purpose flour", "quantity": 2, "unit": "tablespoons" },
-        { "name": "salt", "quantity": 0.25, "unit": "teaspoon" },
-        { "name": "white pepper", "quantity": 0.25, "unit": "teaspoon" },
-        { "name": "nutmeg", "quantity": 0.125, "unit": "teaspoon" },
-        { "name": "butter", "quantity": 2, "unit": "tablespoons" },
-        { "name": "beef stock", "quantity": 1.5, "unit": "cups" },
-        { "name": "heavy cream", "quantity": 0.5, "unit": "cup" },
-        { "name": "lingonberry jam", "quantity": 0.25, "unit": "cup" }
+        {
+          "name": "ground beef",
+          "quantity": 0.5,
+          "unit": "pound"
+        },
+        {
+          "name": "ground pork",
+          "quantity": 0.5,
+          "unit": "pound"
+        },
+        {
+          "name": "onion, finely minced",
+          "quantity": 1,
+          "unit": "small"
+        },
+        {
+          "name": "breadcrumbs",
+          "quantity": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "milk",
+          "quantity": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "all-purpose flour",
+          "quantity": 2,
+          "unit": "tablespoons"
+        },
+        {
+          "name": "salt",
+          "quantity": 0.25,
+          "unit": "teaspoon"
+        },
+        {
+          "name": "white pepper",
+          "quantity": 0.25,
+          "unit": "teaspoon"
+        },
+        {
+          "name": "nutmeg",
+          "quantity": 0.125,
+          "unit": "teaspoon"
+        },
+        {
+          "name": "butter",
+          "quantity": 2,
+          "unit": "tablespoons"
+        },
+        {
+          "name": "beef stock",
+          "quantity": 1.5,
+          "unit": "cups"
+        },
+        {
+          "name": "heavy cream",
+          "quantity": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "lingonberry jam",
+          "quantity": 0.25,
+          "unit": "cup"
+        }
       ],
       "preparation_time": 20,
       "cooking_time": 30,
       "servings": 4,
-      "directions": [
+      "instructions": [
         "In a large mixing bowl, combine the ground beef and pork, onion, breadcrumbs, milk, flour, salt, white pepper, and nutmeg. Mix until well combined.",
         "Form the mixture into small balls, about 1 inch in diameter. In a large skillet, melt the butter over medium heat. Add the meatballs and cook until browned on all sides and cooked through, about 10 minutes.",
         "In a small saucepan, bring the beef stock to a simmer. Add the heavy cream and lingonberry jam and stir until well combined. Pour the sauce over the meatballs and serve immediately with mashed potatoes and additional lingonberry jam on the side."
@@ -422,33 +802,82 @@
     },
     {
       "name": "Bigos (Polish Hunter's Stew)",
+      "id": 13,
       "author": "Kasia Nowak",
       "country": "Poland",
       "description": "Bigos is a traditional Polish stew that is often referred to as the 'Hunter's Stew' because it is made with a variety of meats, including sausage and game. It is a hearty and flavorful dish that is perfect for cold weather.",
       "image": "https://assets.bonappetit.com/photos/5bc65895c5a9942d0858718d/5:4/w_3515,h_2812,c_limit/bigos-1.jpg",
       "ingredients": [
-        { "name": "butter", "quantity": 2, "unit": "tablespoons" },
-        { "name": "onion, chopped", "quantity": 1, "unit": "medium" },
-        { "name": "sausage, sliced", "quantity": 0.5, "unit": "pound" },
+        {
+          "name": "butter",
+          "quantity": 2,
+          "unit": "tablespoons"
+        },
+        {
+          "name": "onion, chopped",
+          "quantity": 1,
+          "unit": "medium"
+        },
+        {
+          "name": "sausage, sliced",
+          "quantity": 0.5,
+          "unit": "pound"
+        },
         {
           "name": "pork shoulder, cut into bite-sized pieces",
           "quantity": 0.5,
           "unit": "pound"
         },
-        { "name": "smoked bacon, diced", "quantity": 0.25, "unit": "pound" },
-        { "name": "cabbage, shredded", "quantity": 1, "unit": "small" },
-        { "name": "tomato puree", "quantity": 1, "unit": "cup" },
-        { "name": "red wine", "quantity": 1, "unit": "cup" },
-        { "name": "beef broth", "quantity": 1.5, "unit": "cups" },
-        { "name": "bay leaves", "quantity": 2, "unit": "leaves" },
-        { "name": "juniper berries", "quantity": 0.5, "unit": "teaspoon" },
-        { "name": "salt", "quantity": 0.25, "unit": "teaspoon" },
-        { "name": "pepper", "quantity": 0.25, "unit": "teaspoon" }
+        {
+          "name": "smoked bacon, diced",
+          "quantity": 0.25,
+          "unit": "pound"
+        },
+        {
+          "name": "cabbage, shredded",
+          "quantity": 1,
+          "unit": "small"
+        },
+        {
+          "name": "tomato puree",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "red wine",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "beef broth",
+          "quantity": 1.5,
+          "unit": "cups"
+        },
+        {
+          "name": "bay leaves",
+          "quantity": 2,
+          "unit": "leaves"
+        },
+        {
+          "name": "juniper berries",
+          "quantity": 0.5,
+          "unit": "teaspoon"
+        },
+        {
+          "name": "salt",
+          "quantity": 0.25,
+          "unit": "teaspoon"
+        },
+        {
+          "name": "pepper",
+          "quantity": 0.25,
+          "unit": "teaspoon"
+        }
       ],
       "preparation_time": 15,
       "cooking_time": 120,
       "servings": 4,
-      "directions": [
+      "instructions": [
         "In a large pot or Dutch oven, melt the butter over medium heat. Add the onion and cook until softened, about 5 minutes. Add the sausage, pork, and bacon and cook until the meat is browned, about 10 minutes.",
         "Add the cabbage, tomato puree, red wine, beef broth, bay leaves, juniper berries, salt, and pepper. Bring the mixture to a boil, then reduce the heat to low and simmer, covered, for about 2 hours, or until the meat is tender and the flavors have melded.",
         "Serve the bigos hot with crusty bread or boiled potatoes on the side."
@@ -462,22 +891,47 @@
     },
     {
       "name": "Teriyaki Chicken",
+      "id": 14,
       "author": "Akasuki Akina",
       "country": "Japan",
       "description": "A delicious and easy-to-make Japanese dish made with chicken marinated in a sweet and savory teriyaki sauce.",
       "image": "https://jasmineandtea.com/wp-content/uploads/2021/07/chicken-teriyaki-recipe.jpg",
       "ingredients": [
-        { "name": "chicken breast", "quantity": 2, "unit": "lbs" },
-        { "name": "soy sauce", "quantity": 1, "unit": "cup" },
-        { "name": "mirin", "quantity": 0.5, "unit": "cup" },
-        { "name": "sugar", "quantity": 0.25, "unit": "cup" },
-        { "name": "ginger", "quantity": 2, "unit": "tbsp" },
-        { "name": "garlic", "quantity": 2, "unit": "cloves" }
+        {
+          "name": "chicken breast",
+          "quantity": 2,
+          "unit": "lbs"
+        },
+        {
+          "name": "soy sauce",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "mirin",
+          "quantity": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "sugar",
+          "quantity": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "ginger",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "garlic",
+          "quantity": 2,
+          "unit": "cloves"
+        }
       ],
-      "preparation_time": "15 minutes",
-      "cooking_time": "30 minutes",
+      "preparation_time": 15,
+      "cooking_time": 30,
       "servings": 4,
-      "directions": [
+      "instructions": [
         "In a bowl, whisk together the soy sauce, mirin, sugar, ginger, and garlic to make the teriyaki sauce.",
         "Place the chicken in a large, shallow dish and pour the teriyaki sauce over it, turning the chicken to coat it evenly.",
         "Cover the dish with plastic wrap and marinate the chicken in the refrigerator for at least 30 minutes, or up to 24 hours.",
@@ -492,6 +946,35 @@
         "carbohydrates": 28,
         "protein": 36
       }
+    },
+   
+    {
+      "name": "Pho",
+      "author": "Dang Le",
+      "country": "vietnam",
+      "description": "Pho is a Vietnamese soup made with broth, rice noodles, herbs, and meat. It is a popular street food and is known for its flavorful broth",
+      "image": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
+      "preparation_time": "30",
+      "cooking_time": "120",
+      "servings": "4",
+      "instructions": [
+        "prepare water",
+        "prepare banh pho",
+        "prepare topping"
+      ],
+      "ingredients": [
+        {
+          "name": "banh pho",
+          "quantity": "8",
+          "unit": "ounce"
+        },
+        {
+          "name": "chicken",
+          "quantity": "2",
+          "unit": "whole"
+        }
+      ],
+      "id": 15
     }
   ]
 }

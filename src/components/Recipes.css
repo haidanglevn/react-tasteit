@@ -1,5 +1,5 @@
 .recipes {
-  background-color: aquamarine;
+  background-color: var(--gray);
   min-height: calc(100vh - 80px);
   text-align: center;
 }
@@ -16,21 +16,22 @@
 }
 
 .content {
-  padding: 20px 0;
+  padding:  10px;
   display: grid;
   grid-template-columns: 20% 80%;
 }
 
 .recipe {
   position: relative;
-  max-width: 200px;
-  height: 300px;
+  width: 200px;
+  max-height: 320px;
   border-radius: 20px;
   border: 1px solid whitesmoke;
-  background-color: green;
+  background-color: var(--darkblue);
+  color: var(--gray);
 }
 .recipe-wrapper {
-    border-left: 1px solid black;
+  border-left: 1px solid black;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -57,4 +58,12 @@
   position: absolute;
   right: -10px;
   top: -10px;
+}
+
+.country-filter {
+  cursor: pointer;
+}
+
+.country-filter:hover {
+  font-weight: bold;
 }

@@ -5,7 +5,7 @@
       "name": "Pho",
       "author": "Dang",
       "country": "vietnam",
-      "description": "Best noodle soup from vietnam",
+      "description": "Pho is a popular Vietnamese soup made with rice noodles in a flavorful broth of beef or chicken, and served with various toppings and a side of chili paste.",
       "image": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80",
       "ingredient": [
         {
@@ -19,88 +19,13 @@
       ],
       "instructions": "put in water, cook and enjoy"
     },
-    {
-      "id": 2,
-      "name": "Syö",
-      "author": "Dang",
-      "country": "finland",
-      "description": "Best noodle soup from vietnam",
-      "image": "https://images.unsplash.com/photo-1597345637412-9fd611e758f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
-      "ingredient": [
-        {
-          "name": "banh pho",
-          "quantity": "1 pcs"
-        },
-        {
-          "name": "gia vi pho",
-          "quantity": "1 pcs"
-        }
-      ],
-      "instructions": "put in water, cook and enjoy"
-    },
-    {
-      "id": 1,
-      "name": "Pho",
-      "author": "Dang",
-      "country": "germany",
-      "description": "Best noodle soup from vietnam",
-      "image": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80",
-      "ingredient": [
-        {
-          "name": "banh pho",
-          "quantity": "1 pcs"
-        },
-        {
-          "name": "gia vi pho",
-          "quantity": "1 pcs"
-        }
-      ],
-      "instructions": "put in water, cook and enjoy"
-    },
+
     {
       "id": 2,
       "name": "Bun Bo Hue",
       "author": "Dang",
       "country": "vietnam",
-      "description": "Best noodle soup from vietnam",
-      "image": "https://images.unsplash.com/photo-1597345637412-9fd611e758f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
-      "ingredient": [
-        {
-          "name": "banh pho",
-          "quantity": "1 pcs"
-        },
-        {
-          "name": "gia vi pho",
-          "quantity": "1 pcs"
-        }
-      ],
-      "instructions": "put in water, cook and enjoy"
-    },
-    {
-      "id": 1,
-      "name": "Pho",
-      "author": "Dang",
-      "country": "vietnam",
-      "description": "Best noodle soup from vietnam",
-      "image": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80",
-      "ingredient": [
-        {
-          "name": "banh pho",
-          "quantity": "1 pcs"
-        },
-        {
-          "name": "gia vi pho",
-          "quantity": "1 pcs"
-        }
-      ],
-      "instructions": "put in water, cook and enjoy"
-    },
-    {
-      "id": 2,
-      "name": "Bun Bo Hue",
-      "author": "Dang",
-      "country": "vietnam",
-      "description": "Best noodle soup from vietnam",
+      "description": "Bun bo Hue is a spicy Vietnamese soup made with beef, pork, and rice noodles, and served with lime and chili paste on the side.",
       "image": "https://images.unsplash.com/photo-1597345637412-9fd611e758f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
       "ingredient": [
         {
@@ -118,7 +43,7 @@
       "name": "Chinese Chili Sauce",
       "author": "Dang",
       "country": "china",
-      "description": "This spicy homemade condiment goes great on everything!",
+      "description": "Chinese chili sauce is a spicy condiment made from ground chilies and other ingredients, used in Chinese cuisine as a dipping sauce or in marinades and stir-fries.",
       "image": "https://cdn.sanity.io/images/2r0kdewr/production/82c621a456cec23ecfd7c6e23738fc51d2fa4c31-1000x668.jpg?w=600&fm=webp&q=50",
       "instructions": "Step 1: Prepare garlic & chili peppers\nStep 2: Fry garlic & peppers\nStep 3: Season sauce\n",
       "ingredient": [],

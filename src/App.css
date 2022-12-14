@@ -2,3 +2,18 @@
   text-align: center;
 }
 
+button {
+  padding: 5px;
+  background-color: var(--green);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 20px;
+  border: 1px solid black;
+  margin: 2px;
+}
+button:hover {
+  cursor: pointer;
+  transform: scale3d(1.1, 1.1, 1.1);
+  transition: all 0.9s;
+}
