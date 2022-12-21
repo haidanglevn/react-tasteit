@@ -3,7 +3,7 @@
 }
 .hero {
   width: 100vw;
-  height: 80vh;
+  height: 40vh;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -13,7 +13,7 @@
   justify-content: center;
 }
 .intro {
-  background-color: rgba(56, 56, 56, 0.609);
+  background-color: rgba(255, 255, 255, 0.609);
   text-align: center;
   margin: 10px 20vw;
   border-radius: 20px;
@@ -52,6 +52,7 @@ li {
   display: grid;
   grid-template-columns: 40% 60%;
   padding: 0 10vw;
+  min-height: calc(100vh - 178px - 40vh);
 }
 .details h2 {
   text-align: center;

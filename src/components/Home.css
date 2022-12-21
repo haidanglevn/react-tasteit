@@ -19,6 +19,7 @@
 .home-title {
   text-align: center;
   padding: 20px;
+  height: 75px;
 }
 .home-link {
   height: 220px;
@@ -26,6 +27,7 @@
   grid-template-columns: repeat(3, 32%);
   gap: 10px;
   justify-content: center;
+    min-height: calc(100vh - 155px - 50vh);
 }
 .home-link > div {
   padding: 10px;

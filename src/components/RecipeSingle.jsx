@@ -29,11 +29,21 @@ const RecipeSingle = () => {
               <div className="intro">
                 <h1>
                   <span>
-                    <img src={flag} alt="flag" id="country-flag" crossOrigin="anonymous" />
+                    <img
+                      src={flag}
+                      alt="flag"
+                      id="country-flag"
+                      crossOrigin="anonymous"
+                    />
                   </span>{" "}
                   {a.name}{" "}
                   <span>
-                    <img src={flag} alt="flag" id="country-flag" crossOrigin="anonymous" />
+                    <img
+                      src={flag}
+                      alt="flag"
+                      id="country-flag"
+                      crossOrigin="anonymous"
+                    />
                   </span>
                 </h1>
                 <h2>{a.description}</h2>
@@ -74,12 +84,12 @@ const RecipeSingle = () => {
                 </ul>
               </div>
             </div>
+            <div className="button">
+              <button onClick={() => navigate(-1)}>Go Back</button>
+            </div>
           </div>
         );
       })}
-      <div className="button">
-        <button onClick={() => navigate(-1)}>Go Back</button>
-      </div>
     </div>
   );
 };
