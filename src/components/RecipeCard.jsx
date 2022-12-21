@@ -8,7 +8,8 @@ const RecipeCard = ({detail}) => {
   return (
     <div className="recipe">
       <span>
-        <img src={flag} id="country-flag" />
+        <img src={flag} id="country-flag" crossOrigin="anonymous" />
+        {/* fix error ERR_BLOCKED_BY_RESPONSE.NotSameOrigin 200 with crossOrigin */}
       </span>
 
       <img src={detail.image} alt="recipe photo" />

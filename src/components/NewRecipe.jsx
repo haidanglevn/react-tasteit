@@ -223,12 +223,7 @@ const NewRecipe = () => {
             Add more step
           </button>
         </div>
-        <textarea
-          name="instructions"
-          cols="30"
-          rows="10"
-          onChange={(event) => onchangeHandler(event)}
-        ></textarea>
+        
         <button onClick={submit}>Post recipe</button>
       </form>
     </div>

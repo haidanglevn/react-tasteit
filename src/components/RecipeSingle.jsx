@@ -29,11 +29,11 @@ const RecipeSingle = () => {
               <div className="intro">
                 <h1>
                   <span>
-                    <img src={flag} alt="flag" id="country-flag" />
+                    <img src={flag} alt="flag" id="country-flag" crossOrigin="anonymous" />
                   </span>{" "}
                   {a.name}{" "}
                   <span>
-                    <img src={flag} alt="flag" id="country-flag" />
+                    <img src={flag} alt="flag" id="country-flag" crossOrigin="anonymous" />
                   </span>
                 </h1>
                 <h2>{a.description}</h2>
