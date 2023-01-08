@@ -35,7 +35,6 @@ const NewRecipe = () => {
   }, []);
 
   const onchangeHandler = (event) => {
-    console.log("changing ", event.target.name, " to ", event.target.value);
     setRecipe({ ...recipe, [event.target.name]: event.target.value });
   };
 
@@ -60,24 +59,19 @@ const NewRecipe = () => {
       unit: "",
     };
     setIngredientFields([...ingredientFields, object]);
-    console.log(instructionFields);
   };
 
   const addInstructionField = () => {
     let array = [""];
     setInstructionFields([...instructionFields, array]);
-    console.log(instructionFields);
   };
 
   const submit = (e) => {
     e.preventDefault();
     setRecipe({ ...recipe, ingredients: ingredientFields });
     setRecipe({ ...recipe, instructions: instructionFields });
-    console.log(recipe);
     axios
       .post("http://localhost:3001/recipes", recipe)
-      .then((res) => console.log(res))
-      .catch((error) => console.log(error));
   };
   return (
     <div className="new-recipe">

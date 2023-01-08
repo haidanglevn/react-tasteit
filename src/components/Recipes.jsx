@@ -11,8 +11,7 @@ const Recipes = () => {
 
   useEffect(() => {
     axios.get("http://localhost:3001/recipes").then((res) => {
-      /*       console.log(res.data);
-       */ setRecipe(res.data);
+        setRecipe(res.data);
     });
   }, []);
 

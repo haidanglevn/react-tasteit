@@ -13,7 +13,6 @@ const RecipeSingle = () => {
       setRecipe(res.data.filter((a) => a.name == params.recipesingle));
     });
   }, []);
-  console.log(recipe);
 
   return (
     <div className="recipe-single">
