@@ -201,7 +201,7 @@ const NewRecipe = () => {
         <label htmlFor="instructions">Instructions</label>
         {instructionFields.map((instruction, index) => {
           return (
-            <div>
+            <div key={index}>
               <label htmlFor="step">Step: {index + 1}</label>
               <input
                 type="text"

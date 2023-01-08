@@ -47,6 +47,9 @@ p {
   padding: 5px;
 }
 .home-link a {
-  font-size: 12px;
-  color: var(--green);
+  text-align: center;
+  font-size: 18px;
+  color: rgb(255, 119, 0);
+  font-weight: bold;
+  font-style: italic;
 }
