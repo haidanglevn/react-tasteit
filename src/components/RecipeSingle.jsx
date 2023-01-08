@@ -19,9 +19,8 @@ const RecipeSingle = () => {
       {recipe.map((a) => {
         let flag = `https://countryflagsapi.com/svg/${a.country}`;
         return (
-          <div>
+          <div key={a.name}>
             <div
-              key={a.id}
               style={{ backgroundImage: `url(${a.image})` }}
               className={"hero"}
             >
@@ -34,8 +33,8 @@ const RecipeSingle = () => {
                       id="country-flag"
                       crossOrigin="anonymous"
                     />
-                  </span>{" "}
-                  {a.name}{" "}
+                  </span>
+                  {a.name}
                   <span>
                     <img
                       src={flag}
@@ -65,8 +64,7 @@ const RecipeSingle = () => {
                 <ul>
                   {a.ingredients.map((ingredient) => {
                     return (
-                      <li>
-                        {" "}
+                      <li key={ingredient.name}>
                         <span>{ingredient.name}</span>: {ingredient.quantity}{" "}
                         {ingredient.unit}
                       </li>
@@ -78,7 +76,7 @@ const RecipeSingle = () => {
                 <h2>Instruction</h2>
                 <ul>
                   {a.instructions.map((instruction) => {
-                    return <li>{instruction}</li>;
+                    return <li key={instruction}>{instruction}</li>;
                   })}
                 </ul>
               </div>
