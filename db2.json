@@ -66,7 +66,7 @@
       "author": "Malee Saelim",
       "country": "Thailand",
       "description": "A popular Thai street food dish made with stir-fried rice noodles, eggs, and a variety of vegetables and seasonings.",
-      "image": "https://www.feastingathome.com/wp-content/uploads/2016/04/pad-thai-2.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Phat_Thai_kung_Chang_Khien_street_stall.jpg",
       "ingredients": [
         {
           "name": "rice noodles",
@@ -137,7 +137,7 @@
       "author": "Flavio Giovanni",
       "country": "Italy",
       "description": "A rich and creamy pasta dish with a homemade Alfredo sauce and tender chicken.",
-      "image": "https://www.budgetbytes.com/wp-content/uploads/2022/07/Chicken-Alfredo-bowl.jpg",
+      "image": "https://www.wikihow.com/images/thumb/a/a1/Cook-Chicken-Alfredo-Step-13-Version-4.jpg/v4-460px-Cook-Chicken-Alfredo-Step-13-Version-4.jpg",
       "ingredients": [
         {
           "name": "chicken breast",
@@ -467,7 +467,7 @@
       "author": "John Doe",
       "country": "United States",
       "description": "A delicious burger made with ground beef, cheese, lettuce, tomato, and onion, served on a toasted bun.",
-      "image": "https://www.sbs.com.au/food/sites/sbs.com.au.food/files/f6e4af93-11ef-4279-8ae7-64acd51f6a36.jpeg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/190524-classic-american-cheeseburger-ew-207p.jpg/1200px-190524-classic-american-cheeseburger-ew-207p.jpg",
       "ingredients": [
         {
           "name": "Ground beef",
