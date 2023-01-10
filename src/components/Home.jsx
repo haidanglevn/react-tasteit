@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Nav from "./Nav";
 import "./Home.css";
 
 const Home = () => {
@@ -37,7 +36,7 @@ const Home = () => {
         <div>
           <h3>Want to know more about our projects</h3>
           <p>Visit our programme homepage</p>
-          <a href="https://en.bc.fi/qualifications/full-stack-web-developer-program/" target={"_blank"}>
+          <a href="https://en.bc.fi/qualifications/full-stack-web-developer-program/" target={"_blank"} rel={"noopener noreferrer"}>
             Business College Helsinki homepage
           </a>
         </div>

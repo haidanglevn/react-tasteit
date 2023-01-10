@@ -1,6 +1,5 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import RecipeCard from "./RecipeCard";
 import "./Recipes.css";
 
@@ -11,11 +10,19 @@ const Recipes = () => {
 
   useEffect(() => {
     axios.get("http://localhost:3001/recipes").then((res) => {
-        setRecipe(res.data);
+      setRecipe(res.data);
     });
   }, []);
 
   useEffect(() => {
+    const makeCountryList = () => {
+      let countryList = [];
+      recipe.map((detail) => {
+        return countryList.push(detail.country);
+      });
+      let countryNoDub = [...new Set(countryList)];
+      setCountry(countryNoDub);
+    };
     makeCountryList();
   }, [recipe]);
 
@@ -24,18 +31,9 @@ const Recipes = () => {
     recipeRender();
   };
 
-  const makeCountryList = () => {
-    let countryList = [];
-    recipe.map((detail) => {
-      countryList.push(detail.country);
-    });
-    let countryNoDub = [...new Set(countryList)];
-    setCountry(countryNoDub);
-  };
-
   const recipeRender = () => {
     let recipeList = "";
-    if (searchParam == "") {
+    if (searchParam === "") {
       recipeList = recipe.map((detail) => {
         return <RecipeCard key={detail.id} detail={detail} />;
       });
@@ -71,7 +69,7 @@ const Recipes = () => {
       <h1>Our recipes</h1>
       <div className="content">
         <div className="filter">
-          <p style={{fontWeight: "bold"}}>Filter by country: </p>
+          <p style={{ fontWeight: "bold" }}>Filter by country: </p>
           <p className="country-filter" onClick={() => filterByCountry("")}>
             All ({recipe.length})
           </p>
