@@ -20,7 +20,7 @@ Live page: coming soon
 For now, please folk the repo and run in terminal:
 - npm install
 - npm start
-- npm server
+- npm run server
 
 ## Screenshot
 ![Screenshot 2022-12-21 at 12 37 41](https://user-images.githubusercontent.com/24937536/208885393-cd54adaa-ccb2-4009-8f76-90996e8be1e0.png)
