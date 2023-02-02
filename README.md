@@ -2,7 +2,7 @@
 
 TasteIT is recipe app which is made in REACT22S group React lessons. The app serves all the recipes from a local JSON databases, which can also be updated by user with new recipe.
 
-Recipe can be sorted by name and country of origin. The country's flag is fetched from CountryFlagsAPI. 
+Recipe can be sorted by name and country of origin. The countries are from REST Country API, and their flags are fetched from CountryFlagsAPI. 
 
 The JSON database is provided by a classmate in REACT22S group, created with ChatGPT.  
 
