@@ -19,8 +19,9 @@ Built with:
 Live page: coming soon
 For now, please folk the repo and run in terminal:
 - npm install
+- npm run server (to run the JSON server)
 - npm start
-- npm run server
+
 
 ## Screenshot
 ![Screenshot 2023-01-10 at 9 10 47](https://user-images.githubusercontent.com/24937536/211446106-0673a5d9-ee6d-430b-ac04-1889b97d2445.png)
